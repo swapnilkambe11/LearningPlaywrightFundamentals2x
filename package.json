@@ -1,0 +1,28 @@
+{
+  "name": "learningplaywrightfundamentals2x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnilkambe11/LearningPlaywrightFundamentals2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/swapnilkambe11/LearningPlaywrightFundamentals2x/issues"
+  },
+  "homepage": "https://github.com/swapnilkambe11/LearningPlaywrightFundamentals2x#readme",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
