@@ -1,45 +1,44 @@
 # Learning Playwright Fundamentals 2x
 
-This repository contains a Playwright-based test automation project for learning end-to-end browser testing with modern web automation practices.
+This repository is a hands-on Playwright learning project for practicing end-to-end browser automation, locators, assertions, and test organization.
 
-## Overview
+## What you will find here
 
-The project is set up with:
-- Playwright Test for browser automation
-- A sample test suite under the `tests/` folder
-- A configuration file for browser projects and reporting
-- npm scripts for running tests locally
+- Playwright Test setup for browser-based automation
+- Example test structure under the `tests/` folder
+- Configured test runner and reporting support
+- A simple project layout suitable for learning and experimentation
 
-## Project Structure
+## Project structure
 
-- `tests/` - Playwright test files
-- `playwright.config.ts` - Playwright configuration and test settings
-- `package.json` - Dependencies and scripts
+- `tests/` - Test files grouped by topic
+- `playwright.config.ts` - Playwright configuration and browser settings
+- `package.json` - Project dependencies and scripts
 - `package-lock.json` - Locked dependency versions
 
-## Getting Started
+## Getting started
 
 1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Run the test suite:
+2. Run all tests:
    ```bash
    npm test
    ```
 
-3. Run Playwright tests directly:
+3. Run Playwright directly:
    ```bash
    npx playwright test
    ```
 
-4. Open the HTML report after a test run:
+4. Open the HTML report:
    ```bash
    npx playwright show-report
    ```
 
-## Useful Commands
+## Useful commands
 
 ```bash
 npx playwright test --headed
@@ -49,5 +48,5 @@ npx playwright codegen
 
 ## Notes
 
-- Generated artifacts such as `node_modules`, test results, and Playwright reports are ignored by Git.
-- This repository is intended for learning and experimenting with Playwright fundamentals.
+- Generated files such as `node_modules`, test results, and reports are ignored by Git.
+- This repo is intended for learning and improving Playwright fundamentals step by step.
