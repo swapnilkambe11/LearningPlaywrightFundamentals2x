@@ -1,20 +1,24 @@
 # Learning Playwright Fundamentals 2x
 
-This repository is a hands-on Playwright learning project for practicing end-to-end browser automation, locators, assertions, and test organization.
+This repository is a hands-on Playwright learning project for practicing browser automation, locators, assertions, multiple contexts, and test organization.
 
 ## What you will find here
 
-- Playwright Test setup for browser-based automation
-- Example test structure under the `tests/` folder
-- Configured test runner and reporting support
-- A simple project layout suitable for learning and experimentation
+- Playwright Test setup for end-to-end automation
+- Example test files under the `tests/` folder
+- Configured test runner and HTML reporting support
+- A simple project layout for learning and experimentation
 
 ## Project structure
 
-- `tests/` - Test files grouped by topic
+- `tests/01_Basics/` - beginner-level Playwright examples
+- `tests/02_first_tests/` - first test scripts and context-based examples
+- `tests/03_Locators_Commands/` - locator and command practice
+- `tests/04_Session_Storage/` - session-related examples
+- `tests/05_Allure_Reporting/` - reporting-related files
 - `playwright.config.ts` - Playwright configuration and browser settings
-- `package.json` - Project dependencies and scripts
-- `package-lock.json` - Locked dependency versions
+- `package.json` - project dependencies and scripts
+- `package-lock.json` - locked dependency versions
 
 ## Getting started
 
@@ -28,12 +32,12 @@ This repository is a hands-on Playwright learning project for practicing end-to-
    npm test
    ```
 
-3. Run Playwright directly:
+3. Run a specific test file:
    ```bash
-   npx playwright test
+   npx playwright test tests/02_first_tests/236_BCP_TEST_PW.spec.ts
    ```
 
-4. Open the HTML report:
+4. Open the HTML report after a run:
    ```bash
    npx playwright show-report
    ```
@@ -49,4 +53,4 @@ npx playwright codegen
 ## Notes
 
 - Generated files such as `node_modules`, test results, and reports are ignored by Git.
-- This repo is intended for learning and improving Playwright fundamentals step by step.
+- This repository is intended for learning and improving Playwright fundamentals step by step.
