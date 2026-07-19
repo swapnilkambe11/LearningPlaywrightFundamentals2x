@@ -16,6 +16,7 @@ This repository is a hands-on Playwright learning project for practicing browser
 - `tests/03_Locators_Commands/` - locator and command practice
 - `tests/04_Session_Storage/` - session-related examples
 - `tests/05_Allure_Reporting/` - reporting-related files
+- `tests/07_WebTables/` - table interaction and web element practice
 - `playwright.config.ts` - Playwright configuration and browser settings
 - `package.json` - project dependencies and scripts
 - `package-lock.json` - locked dependency versions
