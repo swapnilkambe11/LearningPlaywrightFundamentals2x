@@ -8,6 +8,7 @@ This repository is a hands-on Playwright learning project for practicing browser
 - Example test files under the `tests/` folder
 - Configured test runner and HTML reporting support
 - A simple project layout for learning and experimentation
+- Practice examples for locators, XPath, login flows, and web table interactions
 
 ## Project structure
 
