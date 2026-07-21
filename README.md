@@ -9,6 +9,7 @@ This repository is a hands-on Playwright learning project for practicing browser
 - Configured test runner and HTML reporting support
 - A simple project layout for learning and experimentation
 - Practice examples for locators, XPath, login flows, and web table interactions
+- Hands-on web table exercises for counting rows, counting cells, and reading table data
 
 ## Project structure
 
