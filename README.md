@@ -10,6 +10,7 @@ This repository is a hands-on Playwright learning project for practicing browser
 - A simple project layout for learning and experimentation
 - Practice examples for locators, XPath, login flows, and web table interactions
 - Hands-on web table exercises for counting rows, counting cells, and reading table data
+- Keyboard, hover-menu, and drag-and-drop interaction practice
 
 ## Project structure
 
@@ -19,6 +20,7 @@ This repository is a hands-on Playwright learning project for practicing browser
 - `tests/04_Session_Storage/` - session-related examples
 - `tests/05_Allure_Reporting/` - reporting-related files
 - `tests/07_WebTables/` - table interaction and web element practice
+- `tests/10_Keyboard_Hover_Drag_Drop/` - hover-menu and drag-and-drop interaction practice
 - `playwright.config.ts` - Playwright configuration and browser settings
 - `package.json` - project dependencies and scripts
 - `package-lock.json` - locked dependency versions
